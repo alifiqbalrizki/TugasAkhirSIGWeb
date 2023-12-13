@@ -43,6 +43,8 @@
 
     const flightData = JSON.parse(
       '[{"longitude":106.79851425781908,"latitude":-6.216601745161896,"height":60.32},{"longitude":106.80258043852365,"latitude":-6.214613100508274,"height":60.32},{"longitude":106.80706500438293,"latitude":-6.217355608490493,"height":60.32},{"longitude": 106.80723497335163,"latitude":-6.220656997232183,"height":60.32},{"longitude": 106.80407093563139,"latitude":-6.222723604043438,"height":60.32}, {"longitude": 106.7999655313181,"latitude":-6.221488839944996,"height":60.32},{"longitude": 106.79721987875251,"latitude":-6.218447408636322,"height":60.32},{"longitude": 106.79846195967428,"latitude":-6.216705726375295,"height":60.32}]'
+    );
+
     /* Initialize the viewer clock:
       Assume the radar samples are 30 seconds apart, and calculate the entire flight duration based on that assumption.
       Get the start and stop date times of the flight, where the start is the known flight departure time (converted from PST 
